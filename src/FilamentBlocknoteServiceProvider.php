@@ -9,12 +9,12 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
+use Jubeki\FilamentBlocknote\Commands\FilamentBlocknoteCommand;
+use Jubeki\FilamentBlocknote\Testing\TestsFilamentBlocknote;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jubeki\FilamentBlocknote\Commands\FilamentBlocknoteCommand;
-use Jubeki\FilamentBlocknote\Testing\TestsFilamentBlocknote;
 
 class FilamentBlocknoteServiceProvider extends PackageServiceProvider
 {
