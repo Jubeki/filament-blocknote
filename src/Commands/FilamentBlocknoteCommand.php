@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Jubeki\FilamentBlocknote\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentBlocknoteCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-blocknote';
 
     public $description = 'My command';
 
