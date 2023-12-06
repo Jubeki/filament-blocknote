@@ -6,13 +6,13 @@
         "build": "vite build && cd /Users/kiekbjul/Home/tmp/test-filament-blocknote && php artisan filament:upgrade && cd -"
     },
     "devDependencies": {
-        "@vitejs/plugin-react": "^4.1.0",
+        "@vitejs/plugin-react": "^4.2.1",
         "laravel-vite-plugin": "^0.8.1",
         "vite": "^4.5.1"
     },
     "dependencies": {
-        "@blocknote/core": "^0.9.5",
-        "@blocknote/react": "^0.9.5",
+        "@blocknote/core": "^0.10.0",
+        "@blocknote/react": "^0.10.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     }

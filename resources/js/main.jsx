@@ -15,6 +15,33 @@ document.addEventListener('alpine:init', () => {
             this.value = JSON.stringify(editor.topLevelBlocks)
         },
 
+        // async uploadFile(file) {
+
+        //     return this.$wire.upload(
+        //         `componentFileAttachments.${statePath}`,
+        //         file,
+
+        //         // success callback
+        //         (uploadedFilename) => {
+        //           this.$wire
+        //             .getComponentFileAttachmentUrl(statePath)
+        //             .then((url) => {
+        //               if (!url) {
+        //                 return resolve({
+        //                   success: 0,
+        //                 });
+        //               }
+        //               return resolve({
+        //                 success: 1,
+        //                 file: {
+        //                   url: url,
+        //                 },
+        //               });
+        //             });
+        //         }
+        //     );
+        // },
+
         init() {
 
             createRoot(this.$refs.editor).render(
