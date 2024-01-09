@@ -1,4 +1,4 @@
-import "@blocknote/core/style.css"
+import "@blocknote/react/style.css"
 import { BlockNoteView, useBlockNote } from "@blocknote/react"
 import "./styles.css"
 
