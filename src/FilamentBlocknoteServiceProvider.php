@@ -43,7 +43,7 @@ class FilamentBlocknoteServiceProvider extends PackageServiceProvider
         return [
             Css::make(
                 'filament-blocknote-styles',
-                $this->distFromManifest($manifest, 'resources/js/main.css')
+                $this->cssDistFromManifest($manifest, 'resources/js/main.jsx')
             ),
             Js::make(
                 'filament-blocknote-scripts',
@@ -55,5 +55,10 @@ class FilamentBlocknoteServiceProvider extends PackageServiceProvider
     protected function distFromManifest(array $manifest, string $key): string
     {
         return __DIR__.'/../resources/dist/'.$manifest[$key]['file'];
+    }
+
+    protected function cssDistFromManifest(array $manifest, string $key): string
+    {
+        return __DIR__.'/../resources/dist/'.$manifest[$key]['css'][0];
     }
 }
