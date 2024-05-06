@@ -6,7 +6,7 @@ export default function FilamentBlockNoteEditor({ value, onChange, uploadFile })
 {
     const editor = useCreateBlockNote({
         initialContent: value ? JSON.parse(value) : undefined,
-        onEditorContentChange: onChange,
+        onChange: onChange,
         uploadFile: uploadFile,
     })
 
