@@ -13,8 +13,6 @@ document.addEventListener('alpine:init', () => {
 
         handleOnChange(editor) {
             this.value = JSON.stringify(editor.document)
-            console.log(this.value)
-            console.log(this)
         },
 
         init() {
