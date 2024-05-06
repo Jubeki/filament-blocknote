@@ -1,10 +1,11 @@
 {
   "resources/js/main.jsx": {
-    "css": [
-      "assets/main-sLwZplsD.css"
-    ],
-    "file": "assets/main-vawor4-V.js",
+    "file": "assets/main-DMhMTDz0.js",
+    "name": "main",
+    "src": "resources/js/main.jsx",
     "isEntry": true,
-    "src": "resources/js/main.jsx"
+    "css": [
+      "assets/main-D42IICtq.css"
+    ]
   }
 }

@@ -1,10 +1,10 @@
-import "@blocknote/react/style.css"
-import { BlockNoteView, useBlockNote } from "@blocknote/react"
-import "./styles.css"
+import { useCreateBlockNote } from "@blocknote/react";
+import { BlockNoteView } from "@blocknote/mantine";
+import "@blocknote/mantine/style.css";
 
 export default function FilamentBlockNoteEditor({ value, onChange, uploadFile })
 {
-    const editor = useBlockNote({
+    const editor = useCreateBlockNote({
         initialContent: value ? JSON.parse(value) : undefined,
         onEditorContentChange: onChange,
         uploadFile: uploadFile,
