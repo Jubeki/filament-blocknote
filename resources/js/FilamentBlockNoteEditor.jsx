@@ -6,6 +6,7 @@ export default function FilamentBlockNoteEditor({ value, onChange })
 {
     const editor = useCreateBlockNote({
         initialContent: value ? JSON.parse(value) : undefined,
+        trailingBlock: false,
     })
 
     return <BlockNoteView editor={editor} onChange={() => onChange(editor)}/>
