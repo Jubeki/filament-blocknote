@@ -9,6 +9,12 @@ export default defineConfig({
     ],
     build: {
         emptyOutDir: true,
+        file: 'resources/dist/main.js',
         outDir: 'resources/dist',
+        rollupOptions: {
+            output:{
+                inlineDynamicImports: true,
+            },
+        },
     },
 });

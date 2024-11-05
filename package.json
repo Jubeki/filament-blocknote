@@ -6,13 +6,13 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@blocknote/core": "^0.14.0",
-        "@blocknote/mantine": "^0.14.0",
-        "@blocknote/react": "^0.14.0",
-        "@vitejs/plugin-react": "^4.3.0",
-        "laravel-vite-plugin": "^1.0.4",
+        "@blocknote/core": "^0.18.0",
+        "@blocknote/mantine": "^0.18.1",
+        "@blocknote/react": "^0.18.1",
+        "@vitejs/plugin-react": "^4.3.3",
+        "laravel-vite-plugin": "^1.0.5",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "vite": "^5.2.13"
+        "vite": "^5.4.10"
     }
 }
